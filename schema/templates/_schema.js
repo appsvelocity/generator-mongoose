@@ -2,7 +2,8 @@
 
 var mongoose = require('mongoose'),
 		Schema = mongoose.Schema,
-		ObjectId = Schema.ObjectId;
+		ObjectId = Schema.ObjectId,
+		Mixed = Schema.Types.Mixed;
 
 var fields = {
 <% schemaFields.forEach(function(field, index) { 
